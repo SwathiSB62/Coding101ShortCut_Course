@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Registration Form</title>
+<style>
+
+#thomepage
+        {
+            
+            border:1px solid black;
+            align-self: center;
+            margin-left:auto;
+            margin-right:auto;
+            
+        }
+h2,div
+{
+text-align: center;
+color:maroon;
+}
+li :first-child
+{
+color:greenyellow;
+
+}
+.btn-reg:hover
+{
+border-radius: 20%;
+color:aqua
+}
+</style>
+</head>
+<body style="background-color:khaki">
+    <h2>Registration Form</h2>
+    </body>
+    <form>
+    <table id="thomepage">
+        
+        <tr></tr>
+        <tr></tr>
+        <tr>
+            <td>
+               <label for="lname" >What is your name?</label> 
+            </td>
+            <td>/
+                <input type="text" name="lname" id="Iname" placeholder="Enter the name" required/>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+               <label for="lemail" >Enter your emailId</label>
+            </td>
+            <td>/
+                <input type="emailId" name="lemail" id="Iemail" placeholder="Enter the email" required/>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+               <label for="lage" >How old are you?</label>
+            </td>
+            <td>/
+                <input type="number" name="lage" id="Iage" placeholder="Enter the age" required/>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <label for="lGender">Gender : </label> 
+            </td>
+            <td>
+                <input type="radio" name="lGender" id="lMale" value="Male">Male
+                <input type="radio" name="lGender" id="IFemale" value="female"> Female
+                <input type="radio" name="lGender" id="IOther" value="Other"> Other
+
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="lSkills">Skills : </label> 
+            </td>
+            <td>
+                
+                <input type="checkbox" name="lSkills" id="IHTML" value="HTML">HTML<br/>
+                <input type="checkbox" name="lSkills" id="ICSS" value="CSS"> CSS<br/>
+                <input type="checkbox" name="lSkills" id="IJava" value="Java"> Java
+            
+
+            </td>
+        </tr>
+    </table><br/>
+        <div><button class="btn-reg" type="button" style="width: 20%;font-size: larger;" >REGISTER</button></div>
+
+        
+    
+</form>
+<ul>
+    <li>swa</li>
+    <li>thi</li>
+</ul>
+</body>
+
+</html>

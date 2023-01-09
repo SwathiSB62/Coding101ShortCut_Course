@@ -1,0 +1,158 @@
+#divsection1
+{
+    background-color: grey;
+    text-align: center;
+}
+
+#Homeimg 
+{
+     width: 150px;
+     height: 150px;
+     margin-left:  auto;
+     margin-right: auto;
+     display:block;
+     padding-top: 20px;
+     padding-bottom: 20px;
+     clip-path: polygon(50% 0, 100% 45%, 80% 100%, 20% 100%, 0 45%);
+     object-fit: cover;
+     
+}
+
+#divlabel
+{
+    margin-right: auto;
+    margin-left: auto;
+    width:30%;
+    
+    
+}
+
+.levents
+{
+    padding-right: 20px;
+    font-style: italic;
+    font-size: larger;
+    color:white;
+    text-decoration: underline;
+      
+}
+
+h1
+{
+
+color: white;
+padding-top: 30px;
+padding-bottom: 10px;
+}
+
+.btnreg
+{
+    font-size:medium;
+    font-weight: bold;
+    color:white;
+    background-color:rgb(243, 57, 82);
+    height:50px;
+    border-radius: 15%;
+    
+}
+
+.btnreg:hover {
+    background-color: rgb(228, 166, 166);
+    color: #fff;
+    cursor: pointer;
+    border-radius: 15px;
+  }
+
+  #tdescription
+  {
+    border-spacing: 40px;
+    margin: 0% auto;
+    padding-top: 20px;
+    width: 50%;
+  }
+
+  .thdescription
+  {
+    text-align: center;
+    color: white;
+    font-weight:bolder;
+    text-decoration: underline;
+    font-size: 20px;
+    
+  }
+
+  .tddescription
+  {
+    color: white;
+    text-align: left;
+  }
+
+  .tddescription::first-letter {
+    color: red;
+    font-size: 1.5rem;
+  }
+
+  #divsection2
+    {
+    
+    padding-top: 20px;
+    padding-right: 30px;
+    padding-left: 30px;
+    
+    
+    
+   }
+
+   .divphotocol {
+    
+    width: 33.33%;
+    float: left;
+    
+  }
+
+  .iphoto
+  {
+    width:400px;
+      height: 150px;
+      padding-bottom: 10px;
+      display: block;
+      text-align: left;
+      
+  }
+  
+  .halign
+  {
+      text-align: left;
+      color: tomato;
+      padding-bottom: 10px;
+  }
+  
+  
+  h4::first-letter
+  {
+      color:red;
+  }
+
+  #treviews
+  {
+    border-spacing: 20px;
+    margin: 0% auto;
+    padding-top: 20px;
+    width:80%;
+    text-align: left;
+  }
+
+  @media screen and (max-width: 660px){
+    
+    #Homeimg {
+        width: 70px;
+        height: 70px; 
+        float: left;
+      }
+      #divlabel
+      {
+          text-align: right;
+      }
+  }
+
+  

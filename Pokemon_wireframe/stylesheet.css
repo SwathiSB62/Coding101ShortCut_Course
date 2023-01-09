@@ -1,0 +1,62 @@
+#mainsection
+{
+    background-color: rgb(245, 241, 236);
+}
+
+.divsearch
+{
+text-align:center;
+}
+
+.txtsearchclass
+{
+    height:30px;
+    margin:auto;
+    border-radius: 30%;
+    margin-right: -35px;
+}
+
+.pokemonsSection
+{
+    width:90%;
+    margin:auto;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-evenly;
+    justify-content:space-around;
+    padding:30px;
+}
+
+.pokemoncard
+{
+    width: 200px;
+    height:200px;
+    border: 3px solid darkred;
+    border-radius: 20px;
+    text-align:center;
+    
+}
+
+.pokemonImg{
+    width: 120px;
+}
+
+.imagedetailheader
+{
+    max-width: 80%;
+    text-align: center;
+    
+    
+}
+
+.selected-img {
+    width: 160px;
+  }
+
+.pType {
+    background-color: orange;
+    padding: 10px;
+    text-align: center;
+    border-radius: 20px;
+    width:30px;
+}

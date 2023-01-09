@@ -1,0 +1,406 @@
+@import url('https://fonts.googleapis.com/css2?family=Estonia&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap');
+#header
+{
+    background-color: rgb(73, 71, 73);
+    display:flex;
+    width:100%;
+    
+}
+
+#content
+{
+    background-color: rgb(207, 211, 212);
+    display:flex;
+    width:100%;
+}
+
+#footer
+{
+    background-color:  rgb(73, 71, 73);
+    display:flex;
+    width:100%;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.logo-container
+{
+  width:7%;
+  background-color: rgb(73, 71, 73);
+  text-align:center;
+  align-content:center;
+
+}
+
+.logo-div
+{
+color:aliceblue;
+font-size:3.5rem;
+margin-top:25px;
+margin-left:10px;
+background-color: rgb(184, 98, 106);
+height:80px;
+border-radius:70%;
+padding-top:3px;
+animation: blinker 1s step-start infinite;
+
+}
+@keyframes blinker {
+  50% {
+    opacity: 0.8;
+  }
+}
+
+.header-container
+{
+    width:35%;
+    text-align:left;
+    
+}
+#effect2div
+{
+  width:20%;
+}
+
+#name
+{
+    font-family: 'Estonia', cursive;
+    font-size:60px;
+    color:aliceblue;
+    font-weight:bold;
+    margin: 0px;
+    padding-left:100px;
+    
+    
+}
+
+#Role
+{
+    font-family: 'Estonia', cursive;
+    font-size:30px;
+    color:aliceblue;
+    font-weight:normal;
+    margin: 0px;
+    padding-left:100px;
+    padding-bottom:20px;
+    
+}
+
+#menu {
+    color:aliceblue;
+    list-style-type: none;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+    padding-top: 40px;
+    
+  }
+
+  li:hover {
+    cursor: pointer;
+    border-bottom: 2px solid rgb(184, 98, 106);
+  }
+
+  .effect2
+  {
+   
+    width:160px;
+    height:120px;
+    border:25px solid rgb(184, 98, 106);
+    border-radius:60%;
+    margin-top:-90px;
+    animation:leftBounce 3s ease-in-out infinite;
+  }
+  @keyframes leftBounce
+  {
+    0%,100%
+    {transform:translateX(0px);}
+    50%
+    {transform:translateX(25px);}
+  }
+  #content
+  {
+width: 100%;
+background-image: url(images/bg1.jpg);
+  background-size:cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  display:flex;
+  }
+
+  #Imagesection
+  {
+   width:40%;
+  }
+
+  #MyImage
+  {
+      width:400px;
+      height:400px;
+      margin:auto;
+      padding-left: 50px;
+      padding-top: 30px;
+      border-radius: 250px;
+
+  }
+  #InformationSection
+  {
+    display:flex;
+    flex-direction:column;
+    width:40%;
+    padding-top: 15px;
+  }
+  
+  .effect1
+  {
+border:7px solid rgb(184, 98, 106);
+width:30px;
+height:30px;
+position:relative;
+left:80%;
+top:10%;
+border-radius:10%;
+animation:spin 10s linear infinite
+  }
+
+  .effect1a
+  {
+    border:7px solid rgb(184, 98, 106);
+width:20px;
+height:20px;
+position:relative;
+left:70%;
+top:15%;
+animation:spin 10s linear infinite
+  }
+  }
+  .effect3
+  {
+    
+border-top:40px solid transparent;
+border-left:40px solid rgb(211, 129, 129);
+position:relative;
+left:70%;
+top:15%;
+animation:rotation 2s linear infinite;
+  }
+
+  @keyframes spin
+  {
+    0%
+    {transform:rotate(0deg);}
+    100%
+    {transform:rotate(100deg);}
+  }
+
+  @keyframes rotation
+{
+  from
+  {
+    transform:rotate(0deg);
+  }
+  to
+  {
+    transform:rotate(5deg);
+  }
+}
+  .Hello
+  {
+    font-size:70px;
+    font-weight:bold;
+    font-family: 'Libre Baskerville', serif;
+    align-content: center;
+    margin: 0px;
+    padding-top: 25px;
+    color:rgb(68, 67, 67)
+   
+  }
+
+  .Note
+  {
+    font-size:30px;
+    font-weight:normal;
+    font-family: 'Libre Baskerville', serif;
+    align-content: center;
+    margin: 0px;
+    padding-bottom: 25px;
+    color:rgb(68, 67, 67)
+  }
+
+  .Description{
+    font-family: 'Libre Baskerville', serif;
+    font-weight: normal;
+    font-size: 15px;
+    color:rgb(97, 89, 89)
+    
+    }
+    .Description::first-letter
+    {
+      color:rgb(184, 98, 106);
+      font-size: 20px;
+      font-weight: bolder;
+    }
+
+    #BtnSection
+{
+
+  Display:flex;
+  justify-content:space-between;
+  flex-direction: column;
+  margin:auto;
+  padding-top: 5px;
+  
+}
+
+
+
+/*@keyframes run
+ {
+   0%{left:0;}
+   50%{left:calc(100%-100px);}
+   100%{left:0;}
+
+}*/
+
+button:hover
+{
+  opacity: 0.6;
+}
+
+  #SkillBtn,#ClientBtn,#EducationBtn,#DomainBtn
+  {
+    width:100px;
+    height:100px ;
+background-color:rgb(184, 98, 106);
+border-radius: 40px;
+color:rgb(68, 67, 67);
+font-weight:bold;
+transition:0.2s all;
+/*animation:rotation 6s infinite linear;*/
+}
+
+#SkillBtn:focus
+{
+  color: wheat;
+  box-shadow:7px 7px 5px rgb(82, 80, 80);
+}
+#ClientBtn:focus
+{
+  color: wheat;
+  box-shadow:7px 7px 5px rgb(82, 80, 80);
+}
+#EducationBtn:focus
+{
+  color: wheat;
+  box-shadow:7px 7px 5px rgb(82, 80, 80);
+}
+#DomainBtn:focus
+{
+  color: wheat;
+  box-shadow:7px 7px 5px rgb(82, 80, 80);
+}
+
+.skillsection
+{
+  width:80%;
+  margin:auto ;
+  border:3px solid rgb(126, 126, 131);
+  box-shadow: 10px 10px 5px rgb(155, 136, 89);
+  text-align: center;
+}
+.skill
+{
+   width:98%;
+   height:40px;
+   background-color: rgb(219, 177, 182);
+   border:1px solid black;
+   text-align: center;
+   margin:5px;
+   padding-top: 20px;
+   font-weight: bold;
+   
+}
+
+
+.Clientlist,.Domainlist,.Educationlist
+{
+  list-style-type:none;
+  display:inline;
+}
+
+
+
+.orderedclientlist,.Domainlistitem,.Educationlistitem
+
+{
+  
+  width:98%;
+   height:45px;
+   background-color: rgb(219, 177, 182);
+   border:1px solid black;
+   text-align: center;
+   margin:2px;
+   padding-top: 20px;
+   font-weight: bold;
+   
+}
+
+
+#Titlefooter
+{
+  display:flex;
+  padding-top: 15px;
+  flex-direction: row;
+  
+}
+.fa-map-marker-alt,.fa-phone-volume,.fa-envelope,.fa-linkedin-in
+{
+  color:aliceblue;
+  font-size: 1.2rem;
+  margin:auto;
+  padding-top: 4px;
+ 
+}
+
+
+#locicon
+{
+  background-color: rgb(88, 154, 212);
+  width:30px;
+  height:30px;
+  border-radius:50%;
+  text-align: center;
+  
+}
+.Detailsfooter
+{
+  margin:0px;
+  color:aliceblue;
+  padding-bottom: 3px;
+  padding-left: 15px;
+}
+  /*Mobile view*/
+
+  @media screen and (max-width: 550px) 
+  {
+    #header,#content,#footer
+    {
+        flex-direction: column;
+    }
+    
+    .header-container,#InformationSection
+    {
+      width:100%;
+    }
+    
+    #SkillBtn,#ClientBtn,#EducationBtn,#DomainBtn
+    {
+      width:200px;
+      height:40px ;
+      border-radius: 20%;
+ 
+  }
+  }
